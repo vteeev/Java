@@ -1,0 +1,5 @@
+javac -d out HelloAnonymousWorld/src/HelloAnonymousWorld.java
+java -cp out HelloAnonymousWorld.HelloAnonymousWorld
+java HelloOneFileWorld/efs/onefile/HelloOneFileWorld.java
+javac -d out HelloWorld/efs/manyfiles/*.java
+java -cp out efs.manyfiles.HelloWorld
